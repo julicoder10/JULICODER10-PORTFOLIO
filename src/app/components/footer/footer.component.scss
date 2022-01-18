@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;900&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:300px;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight:400;
+    color:#ffebee;
+}
+.footer-links{
+    list-style:none;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    text-align: center;
+}
+a{
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-weight:400;
+    font-size:16px;
+}
+.github-button{
+    border-radius:30px;
+    padding:10px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    &:hover{
+        background:white;
+        color:black;
+        border-bottom:none;
+    }
+}
